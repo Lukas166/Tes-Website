@@ -1,0 +1,43 @@
+.responsive-img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 4vw;
+    border-radius: 3vw;
+    filter: blur(2px) brightness(60%);
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10vw;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.centered-text:hover{
+    color: rgb(236, 236, 236);
+}
+
+.hover-text {
+    text-decoration: none;
+    color: black;
+}
+
+.hover-text:hover {
+    color: rgb(134, 134, 134);
+}
+
+.hover-img {
+    transition: transform 0.2s ease-in-out;
+    max-width: 80%;
+    height: auto;
+    border-radius: 1.5vw;
+}
+
+.hover-img:hover {
+    transform: scale(1.1);
+}
